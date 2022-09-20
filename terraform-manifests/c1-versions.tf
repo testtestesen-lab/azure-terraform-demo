@@ -25,5 +25,3 @@ resource "random_string" "myrandom" {
   special = false
   number = false   
 }
-
-

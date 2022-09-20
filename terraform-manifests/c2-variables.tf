@@ -3,7 +3,7 @@
 variable "business_unit" {
   description = "Business Unit Name"
   type = string
-  #default = "hr"
+  #default = "it"
 }
 # 2. Environment Name
 variable "environment" {
@@ -27,7 +27,7 @@ variable "resoure_group_location" {
 variable "virtual_network_name" {
   description = "Virtual Network Name"
   type = string 
-  default = "myvnet"
+  #default = "myvnet"
 }
 # 6. Subnet Name
 variable "subnet_name" {
